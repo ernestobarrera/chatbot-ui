@@ -1,5 +1,9 @@
 # Chatbot UI
 
+**WE HAVE BEEN TOLD TO TAKE DOWN CHATBOTUI.COM DOWN BY OPENAI EFFECTIVE IMMEDIATELY**
+
+**WE ARE WORKING ON GETTING THIS RESOLVED**
+
 Chatbot UI is an advanced chatbot kit for OpenAI's chat models built on top of [Chatbot UI Lite](https://github.com/mckaywrigley/chatbot-ui-lite) using Next.js, TypeScript, and Tailwind CSS.
 
 See a [demo](https://twitter.com/mckaywrigley/status/1636103188733640704).
@@ -102,6 +106,18 @@ npm run dev
 **5. Use It**
 
 You should be able to start chatting.
+
+## Configuration
+
+When deploying the application, the following environment variables can be set:
+
+| Environment Variable | Default value    | Description                                             |
+|----------------------|------------------|---------------------------------------------------------|
+| OPENAI_API_KEY       |                  | The default API key used for authentication with OpenAI |
+| DEFAULT_MODEL        | `gpt-3.5-turbo`  | The default model to use on new conversations           |
+
+If you do not provide an OpenAI API key with `OPENAI_API_KEY`, users will have to provide their own key.
+If you don't have an OpenAI API key, you can get one [here](https://platform.openai.com/account/api-keys).
 
 ## Contact
 
